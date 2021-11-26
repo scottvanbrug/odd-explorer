@@ -1,25 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
+import CharacterGenerator from './components/CharacterGenerator/CharacterGenerator'
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<div className="app">
+			<header className="appHeader">
+				<h1><span className="headerPrefix">Prepare to Travel</span> Into the Odd</h1>
+			</header>
+			<CharacterGenerator></CharacterGenerator>
+		</div>
+	);
 }
 
 export default App;

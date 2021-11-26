@@ -1,0 +1,54 @@
+.characterSheet {
+	max-width: 756px;
+	margin: 0 auto;
+	padding: 16px;
+}
+
+.regenerate {
+	font-size: 16px;
+	background-color: #ec6719;
+	color: #fff;
+	border: none;
+	padding: 8px;
+}
+
+.characterSheet > * {
+	margin-bottom: 16px;
+}
+
+.characterName {
+	font-size: 48px;
+	margin: 0;
+}
+
+.characterOccupation {
+	font-size: 16px;
+}
+
+.characterAttributes {
+	display: flex;
+	flex-direction: row;
+	text-align: left;
+	border-top: solid 2px currentColor;
+}
+
+.characterHP {
+	margin-bottom: 16px;
+}
+
+.characterStats, .characterInventory {
+	flex: 1;
+	padding: 16px;
+}
+
+.characterStats {
+	border-right: solid 1px currentColor;
+}
+
+.characterInventory {
+	border-left: solid 1px currentColor;
+}
+
+.characterInventory ul {
+	padding: 0 16px;
+}
