@@ -15,7 +15,7 @@ function CharacterGenerator() {
 			<main className="characterSheet">
 				<button className="regenerate" onClick={rollUp}>They're Dead!</button>
 				<h2 className="characterName">{ character.background.forename } { character.background.surname }</h2>
-				<p className="characterOccupation">{ character.background.occupation }</p>
+				<p className="characterOccupation">{ character.background.occupation }, { character.background.capability }</p>
 				<div className="characterAttributes">
 					<div className="characterStats">
 						<h3>Hit Protection</h3>
